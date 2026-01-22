@@ -1,2 +1,18 @@
 # TextEncryption
-Java application demonstrating Caesar and Rail-Fence ciphers, with encryption and decryption in a user-friendly menu.
+
+A simple **Java-based application** implementing classical cryptography techniques, including **Caesar Cipher** and **Rail-Fence Cipher**.  
+This program demonstrates both **encryption** and **decryption**, with a user-friendly looping menu system.
+
+## Features
+
+- **Caesar Cipher**  
+  - Encrypts and decrypts text using a shift value (1-25) 
+  - Handles both uppercase letters and other characters
+
+- **Rail-Fence Cipher**  
+  - Encrypts and decrypts text using a custom key (number of rails)
+  - Implements a zig-zag transposition 
+
+- **Interactive Menu**  
+  - Choose between ciphers and encryption/decryption options
+  - Loops until the user chooses to exit.
